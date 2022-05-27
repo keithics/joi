@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ark Error Handler Tests INVALID Array - should return error friendly message 1`] = `
+Object {
+  "error": "List weight is required",
+}
+`;
+
+exports[`Ark Error Handler Tests INVALID Array with missing item value - should return error friendly message 1`] = `
+Object {
+  "error": "List keywords is not allowed to be empty",
+}
+`;
+
+exports[`Ark Error Handler Tests INVALID Array with missing item value at index 1 - should return error friendly message 1`] = `
+Object {
+  "error": "List keywords is not allowed to be empty",
+}
+`;
+
+exports[`Ark Error Handler Tests INVALID Array with no values- should return error friendly message 1`] = `
+Object {
+  "error": "List is required",
+}
+`;
+
+exports[`Ark Error Handler Tests INVALID object ID - should return error if objectID is invalid 1`] = `
+Object {
+  "error": "Id is an invalid  Object Id with a value of - 000",
+}
+`;
+
+exports[`Ark Error Handler Tests INVALID object ID - should return error if sellerId is invalid 1`] = `
+Object {
+  "error": "Seller Id is an invalid  Object Id with a value of - 0",
+}
+`;
+
+exports[`Ark Error Handler Tests NO object ID - should return error if objectID is invalid 1`] = `
+Object {
+  "error": "Seller Id is required",
+}
+`;
+
+exports[`Ark Error Handler Tests VALID String - should return error friendly message 1`] = `
+Object {
+  "error": "First Name is required",
+}
+`;
+
+exports[`Ark Error Handler Tests VALID object ID - should return error if objectID is invalid 1`] = `
+Object {
+  "error": null,
+  "value": Object {
+    "sellerId": "000000000000000000000000",
+  },
+}
+`;
