@@ -1,6 +1,6 @@
 {
   "name": "@keithics/joi",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Error handing and Error codes",
   "main": "index.js",
   "scripts": {
