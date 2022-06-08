@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@keithics/core": "^3.0.2",
-    "@signalyticsai/sideway-joi": "^0.17.7",
+    "@keithics/sideway-joi": "^0.17.7",
     "mongoose": "^6.2.0"
   },
   "files": [

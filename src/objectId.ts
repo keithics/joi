@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-import Joi, { CustomHelpers } from '@signalyticsai/sideway-joi';
+import Joi, { CustomHelpers } from '@keithics/sideway-joi';
 
 // don't uncomment, joi/_ is needed even though it is not used
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
