@@ -1,6 +1,6 @@
 {
   "name": "@keithics/joi",
-  "version": "3.0.3",
+  "version": "3.0.2",
   "description": "Error handing and Error codes",
   "main": "index.js",
   "scripts": {
@@ -50,8 +50,8 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "@keithics/core": "^3.0.2",
-    "@keithics/sideway-joi": "https://github.com/keithics/sideway-joi",
+    "@keithics/core": "^2.0.12",
+    "@keithics/sideway-joi": "^0.17.7",
     "mongoose": "^6.2.0"
   },
   "files": [
