@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@keithics/core": "^2.0.12",
-    "@keithics/sideway-joi": "^0.17.7",
+    "@keithics/sideway-joi": "github:keithics/sideway-joi",
     "mongoose": "^6.2.0"
   },
   "files": [
